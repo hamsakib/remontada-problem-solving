@@ -229,3 +229,34 @@ var summation = function (num) {
 var booleanToString = function (b) {
   return b.toString();
 };
+
+// Lets test runners `require` this file; ignored in the browser.
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = {
+    solveMeFirst,
+    multiply,
+    evenOrOdd,
+    makeNegative,
+    opposite,
+    simpleArraySum,
+    sleepIn,
+    monkeyTrouble,
+    sumDouble,
+    diff21,
+    parrotTrouble,
+    makes10,
+    nearHundred,
+    posNeg,
+    notString,
+    compareTriplets,
+    aVeryBigSum,
+    staircase,
+    gradingStudents,
+    timeConversion,
+    repeatStr,
+    solution,
+    positiveSum,
+    summation,
+    booleanToString,
+  };
+}
