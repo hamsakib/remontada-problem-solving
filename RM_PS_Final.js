@@ -31,7 +31,7 @@ var evenOrOdd = function (number) {
  * @return {number}
  */
 var makeNegative = function (number) {
-  return -Math.abs(number);
+  return number > 0 ? -number : number;
 };
 
 /**
@@ -39,7 +39,7 @@ var makeNegative = function (number) {
  * @return {number}
  */
 var opposite = function (number) {
-  return -number;
+  return number === 0 ? 0 : -number;
 };
 
 /**
